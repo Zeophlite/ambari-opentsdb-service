@@ -11,6 +11,7 @@ Author: [Ali Bajwa](https://www.linkedin.com/in/aliabajwa)
 ##### Changelog
 
 - Dec 12 2016: Updated for OpenTSDB 2.2.1 and tested on HDP 2.5.3 / Ambari 2.4.1.0 on RHEL 7
+- Sep 21 2017: Updated for OpenTSDB 2.3.0 and tested on HDP 2.6.3 / Ambari 2.5.2.0 on CentOS 7
 
 ##### Setup
 
@@ -121,7 +122,7 @@ service ambari-server restart
   
     ```
     rm -rf /root/opentsdb
-    rm -rf /var/lib/ambari-server/resources/stacks/HDP/2.2/services/opentsdb-service/
+    rm -rf /var/lib/ambari-server/resources/stacks/HDP/2.6/services/opentsdb-service/
     ```
 
 
